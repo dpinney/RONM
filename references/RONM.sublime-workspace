@@ -331,24 +331,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/dpinney/gdrive/LATERBASE/NRECA/2019 Bids and Proposals/CONTRACTING - RONM LPNORM2 Resilience With LANL Etc for Dan Ton Programmatic Funding/RONM/test.py",
-			"settings":
-			{
-				"buffer_size": 62,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "test0_otherinputs_ieee37.xlsx",
-			"settings":
-			{
-				"buffer_size": 336400,
-				"encoding": "Hexadecimal",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -478,10 +460,6 @@
 		"selected_items":
 		[
 			[
-				"revea",
-				"File: Reveal"
-			],
-			[
 				"git push",
 				"Git: Push"
 			],
@@ -492,6 +470,10 @@
 			[
 				"git add",
 				"Git: Add..."
+			],
+			[
+				"revea",
+				"File: Reveal"
 			],
 			[
 				"git status",
@@ -1016,6 +998,7 @@
 	],
 	"file_history":
 	[
+		"/Users/dpinney/gdrive/LATERBASE/NRECA/2019 Bids and Proposals/CONTRACTING - RONM LPNORM2 Resilience With LANL Etc for Dan Ton Programmatic Funding/RONM/test.py",
 		"/Users/dpinney/gdrive/LATERBASE/NRECA/2019 Bids and Proposals/CONTRACTING - RONM LPNORM2 Resilience With LANL Etc for Dan Ton Programmatic Funding/RONM/test_data/test0_otherinputs_ieee37.json",
 		"/Users/dpinney/gdrive/NREL_v2.json",
 		"/Users/dpinney/gdrive/LATERBASE/omf/omf/scratch/OpenDssDemo/dssConvert.py",
@@ -1142,8 +1125,7 @@
 		"/Users/dpinney/gdrive/Monday Phil Contracts/CONTRACTING TODOS.txt",
 		"/Users/dpinney/gdrive/Monday Phil Contracts/@TODO.txt",
 		"/Users/dpinney/gdrive/cisco phone headset.txt",
-		"/Users/dpinney/gdrive/LATERBASE/NRECA/SGRIM/omfBusinessPlan/del3 - OMF and GridState Licensing Fees for Cost Share 24 June 2019.txt",
-		"/Users/dpinney/gdrive/Proposal.md"
+		"/Users/dpinney/gdrive/LATERBASE/NRECA/SGRIM/omfBusinessPlan/del3 - OMF and GridState Licensing Fees for Cost Share 24 June 2019.txt"
 	],
 	"find":
 	{
@@ -1178,65 +1160,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/dpinney/gdrive/LATERBASE/NRECA/2019 Bids and Proposals/CONTRACTING - RONM LPNORM2 Resilience With LANL Etc for Dan Ton Programmatic Funding/RONM/test.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 62,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								44,
-								44
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "test0_otherinputs_ieee37.xlsx",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 336400,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

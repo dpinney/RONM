@@ -1,0 +1,48 @@
+{
+	"Time start time stamp": "2019-01-01T12:00Z",
+	"Time step size (minutes)": 60,
+	"Time end (steps)": 3,
+	"Load served": {
+		"Feeder load (%)": [1.0, 0.0, 0.5],
+		"Microgrid load (%)": [0.0, 0.5, 0.5],
+		"Bonus load via microgrid (%)": [0.0, 0.2, 0.2]
+	},
+	"Generator Profiles": {
+		"Grid mix (kW)": [10.0, 0.0, 3.5],
+		"Solar DG (kW)": [3.5, 7.4, 2.9],
+		"Energy storage (kW)": [-0.2, 2.0, 2.0],
+		"Diesel DG (kW)": [0.0, 3.0, 3.0]
+	},
+	"Voltages": {
+		"Min voltage (p.u.)": [0.9, 0.2, 0.85],
+		"Mean voltage (p.u.)": [0.99, 0.8, 0.9],
+		"Max voltage (p.u.)": [1.02, 0.0, 1.01]
+	},
+	"Storage SOC": [0.2, 0.5, 0.3],
+	"Device action timeline": [
+		{
+			"Time": 1,
+			"Device ID": "R0",
+			"Action": "open",
+			"Load before": 1.0,
+			"Load after": 0.05
+		},
+	],
+	"Powerflow output":	[
+		{
+			"Time step": 1,
+			"Device ID": "R0",
+			"Volts (p.u.):": 1.0,
+			"Other field": "TBD"
+		},
+		{
+			"Time step": 1,
+			"Device ID": "node1",
+			"Volts (p.u.):": 1.0,
+			"Other field": "TBD"
+		}
+	],
+	"Summary statistics": {
+		"Additional stats": "TBD"
+	}
+}
