@@ -1,0 +1,183 @@
+{
+	"Computation time limit (seconds)": 36000,
+	"Max number of iterations": 100000,
+	"Feasibility numerical tolerance": 1.00E-06,
+	"Number of Years": 1,
+	"Inflation Rate": 0.02,
+	"Demand Growth Rate": 0.04,
+	"Networked": "No",
+	"Number of hours of fuel availability during resiliency scenarios": 3,
+	"Solar PV Capital Cost ($/kW)": 2500,
+	"Solar PV Efficiency": 0.8,
+	"Wind capitol cost ($/kW)": 2500,
+	"Wind efficiency": 0.8,
+	"Solar PV investments": [
+		{
+			"Node location name": "node1",
+			"Minimum Capacity (kW)": 0,
+			"Maximum Capacity (kW)": 10,
+			"Existing Capacity (kW)": 0,
+			"Phases": "123"
+		}
+	],
+	"Wind investments": [
+		{
+			"Node location name": "node1",
+			"Minimum Capacity (kW)": 0,
+			"Maximum Capacity (kW)": 10,
+			"Existing Capacity (kW)": 0,
+			"Phases": "123"
+		}
+	],
+	"Diesel investments": [
+		{
+			"Node location name": "node1",
+			"Tech ID number": "DGTech01",
+			"MinAnnualHours": 0,
+			"MaxAnnualHours": 8760,
+			"MinLoad (kWh)": 0,
+			"Min number of units": 0,
+			"Max number of units": 1,
+			"Already installed?": false,
+			"Age (years)": 0
+		}
+	],
+	"Diesel parameters": [
+		{
+			"Technology ID number": "DGTech01",
+			"Description": "MT_CHP-HW_65",
+			"Max power (kW)": 200,
+			"Capital cost ($)": 20000,
+			"Cost 0 ($/kWh)": 0.5,
+			"Cost 1 ($/kWh)": 0.00725,
+			"Cost 2 ($/kWh)": 0.00725,
+			"Type ID (int)": 5,
+			"Efficiency": 0.762,
+			"Max ramp up (% of max power)": 0.5,
+			"Max ramp down (% of max power)": 0.5,
+			"Lifetime (years)": 15,
+			"Phases (1,2,3)": "123",
+			"Fuel reserve (hours)": 6
+		}
+	],
+	"Battery investments": [
+		{
+			"Node location name": "node1",
+			"Battery inverter type": "BattInverter_100kw",
+			"Min (number of units)": 5,
+			"Max (number of units)": 10,
+			"Existing": false,
+			"Age (years)": 0
+		}
+	],
+	"Battery parameters": [
+		{
+			"Battery inverter type": "BattInverter_100kw",
+			"Max power (kW)": 100,
+			"Lifetime (years)": 20,
+			"Capital cost ($/kW)": 3000,
+			"Efficiency coefficient x1": -1,
+			"Efficiency coefficient y1": -1.253333333,
+			"Efficiency coefficient x2": -0.8,
+			"Efficiency coefficient y2": -0.853333333,
+			"Efficiency coefficient x3": 0,
+			"Efficiency coefficient y3": 0,
+			"Efficiency coefficient x4": 0.8,
+			"Efficiency coefficient y4": 0.75,
+			"Efficiency coefficient x5": 1,
+			"Efficiency coefficient y5": 0.85,
+			"Phases (1,2,3)": "123"
+		}
+	],
+	"Branch investments": [
+		{
+			"From Node": "node1",
+			"To Node": "node7",
+			"Length (feet)": 500,
+			"Reliability": 0.100
+		}
+	],
+	"Branch cable parameters": [
+		{
+			"Cable ID number": "CableType1",
+			"Description": "CU_XLPE_PVC_27KV_3CORE",
+			"Capacity cost ($/km)": 8.50E+03,
+			"Resistance (p.u.)": [0.07584457054363904,0.034146472818047335,0.034584250184911236,0.034146472818047335,0.07387458394970414,0.03359925110946746,0.034584250184911236,0.03359925110946746,0.07472824981508876],
+			"Reactance (p.u.)": [0.2228057969674556,0.1098159439718935,0.09272081869452663,0.1098159439718935,0.22935049926035506,0.08424986131656804,0.09272081869452663,0.08424986131656804,0.22650494637573965],
+			"Rating (Amps)": 220,
+			"phases (1,2,3)": "123"
+		}
+	],
+	"Non-branch entity reliability": [
+		{
+			"Component ID number": "load_671",
+			"Failure Rate": 0.123
+		}
+	],
+	"Switch investments": [
+		{
+			"From Node": "node3",
+			"To Node": "node5",
+		}
+	],
+	"Switch parameters": [
+		{
+		"Switch ID number": "SwitchType1",
+		"Description": "Manual_not_for_protection",
+		"Cost ($)": 15000,
+		"Can be remotely controlled": false,
+		"Includes protection": false,
+		"Phases (1,2,3)": "1"
+		}
+	],
+	"Month season mapping": {
+		"Winter": ["Jan", "Feb", "Dec"],
+		"Spring": ["Mar", "Apr", "May"],
+		"Summer": ["Jun", "Jul", "Aug"],
+		"Autumn": ["Sep", "Oct", "Nov"]
+	},
+	"Number of days": {
+		"January": {"peak": 5, "week": 18, "weekend": 8},
+		"February": {"peak": 4, "week": 16, "weekend": 8},
+		"March": {"peak": 4, "week": 16, "weekend": 8},
+		"April": {"peak": 5, "week": 16, "weekend": 10},
+		"May": {"peak": 3, "week": 19, "weekend": 8},
+		"June": {"peak": 3, "week": 19, "weekend": 9},
+		"July": {"peak": 3, "week": 19, "weekend": 8},
+		"August": {"peak": 4, "week": 19, "weekend": 8},
+		"September": {"peak": 4, "week": 17, "weekend": 10},
+		"October": {"peak": 3, "week": 19, "weekend": 8},
+		"November": {"peak": 3, "week": 20, "weekend": 8},
+		"December": {"peak": 3, "week": 17, "weekend": 10}
+	},
+	"Solar resource average hourly irradiance  (kW/m^2)": {
+		"January": [0, 0, 0, 0, 0, 0, 0, 0.0217, 0.1805, 0.3204, 0.4134, 0.4828, 0.5302, 0.5698, 0.4371, 0.3374, 0.0606, 0.0005, 0, 0, 0, 0, 0, 0]
+	},
+	"Solar resource variance in hourly irradiance (kW/m^2)": {
+		"January": [0, 0, 0, 0, 0, 0, 0, 0.0217, 0.1805, 0.3204, 0.4134, 0.4828, 0.5302, 0.5698, 0.4371, 0.3374, 0.0606, 0.0005, 0, 0, 0, 0, 0, 0]
+	},
+	"Wind resource average speed (mph)": {
+		"January": [28.92611111, 25.46194444, 23.56333333, 26.95055556, 27.58861111, 25.425, 29.65055556, 32.27055556, 27.69833333, 25.18416667, 19.45888889, 19.075, 22.00166667, 22.37611111, 24.52138889, 26.02361111, 28.78833333, 27.82972222, 28.30444444, 30.61361111, 30.30527778, 30.79888889, 27.7775, 28.19138889]
+	},
+	"Wind resource variance in speed (mph)": {
+		"January": [28.92611111, 25.46194444, 23.56333333, 26.95055556, 27.58861111, 25.425, 29.65055556, 32.27055556, 27.69833333, 25.18416667, 19.45888889, 19.075, 22.00166667, 22.37611111, 24.52138889, 26.02361111, 28.78833333, 27.82972222, 28.30444444, 30.61361111, 30.30527778, 30.79888889, 27.7775, 28.19138889]
+	},
+	"Resilience scenarios": [
+		{
+			"Scenario Name": "Scenario 1",
+			"Start datetime": "2019-01-01T06:00Z",
+			"Length (hours)": 4,
+			"Names of branches affected": ["branch_1_2", "branch_2_3"]
+		}
+	],
+	"Load time series step data": {
+		"start date time": "2019-01-01T00:01",
+		"time step size (minutes)": 1
+	},
+	"Load time series": [
+		{
+			"Load name": "load_646_phase_2",
+			"Load power (P, Q)": [[0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125], [0.017,0.0125]]
+		}
+	]
+}
