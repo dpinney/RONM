@@ -28,20 +28,16 @@
 			"Load after (%)": 0.05
 		},
 	],
-	"Powerflow output":	[
-		{
-			"Time step": 1,
-			"Device ID": "R0",
-			"Volts (p.u.):": 1.0,
-			"Other field": "TBD"
+	"Powerflow output": {
+		"2019-01-01T12:00Z": {
+			"node1": {
+				"voltage (V)": 1.0
+			},
+			"node2": {
+				"voltage (V)": 2.0
+			}
 		},
-		{
-			"Time step": 1,
-			"Device ID": "node1",
-			"Volts (p.u.):": 1.0,
-			"Other field": "TBD"
-		}
-	],
+	},
 	"Summary statistics": {
 		"Additional stats": "TBD"
 	}
