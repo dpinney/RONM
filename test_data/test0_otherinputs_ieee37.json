@@ -134,10 +134,6 @@
 		"Line.switch_0": {
 			"state": "open",
 			"fixed": false,
-			"damaged": false
-		},
-		"Generator.mg1_diesel": {
-			"damaged": true
 		}
 	},
 	"Month season mapping": {
