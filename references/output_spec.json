@@ -1,7 +1,9 @@
 {
-	"Time start time stamp": "2019-01-01T12:00Z",
-	"Time step size (minutes)": 60,
-	"Time end (steps)": 3,
+	"Simulation time stamps": [
+		"2019-01-01T12:00Z",
+		"2019-01-01T13:00Z",
+		"2019-01-01T15:00Z"
+	],
 	"Load served": {
 		"Feeder load (%)": [1.0, 0.0, 0.5],
 		"Microgrid load (%)": [0.0, 0.5, 0.5],
