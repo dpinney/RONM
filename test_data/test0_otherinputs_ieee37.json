@@ -130,10 +130,14 @@
 		"Phases (1,2,3)": "1"
 		}
 	],
-	"Circuit Switch Status": {
+	"Circuit Component Status": {
 		"Line.switch_0": {
 			"state": "open",
-			"fixed": false
+			"fixed": false,
+			"damaged": false
+		},
+		"Generator.mg1_diesel": {
+			"damaged": true
 		}
 	},
 	"Month season mapping": {
