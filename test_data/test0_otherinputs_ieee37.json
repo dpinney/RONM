@@ -130,6 +130,12 @@
 		"Phases (1,2,3)": "1"
 		}
 	],
+	"Circuit Switch Status": {
+		"Line.switch_0": {
+			"state": "open",
+			"fixed": false
+		}
+	},
 	"Month season mapping": {
 		"Winter": ["Jan", "Feb", "Dec"],
 		"Spring": ["Mar", "Apr", "May"],
