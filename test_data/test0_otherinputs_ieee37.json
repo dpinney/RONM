@@ -173,7 +173,7 @@
 			"Scenario Name": "Scenario 1",
 			"Start datetime": "2019-01-01T06:00Z",
 			"Length (hours)": 4,
-			"Names of branches affected": ["branch_1_2", "branch_2_3"]
+			"Names of objects affected": ["Line.L12", "Generator.353"]
 		}
 	],
 	"Load time series step data": {
