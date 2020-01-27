@@ -1,1 +1,1 @@
-# run each of the .dss and associated .json files through ONM
+# run each of the (.dss, .json) input pairs through ONM and other tools
