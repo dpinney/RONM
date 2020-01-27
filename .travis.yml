@@ -20,6 +20,8 @@ before_install:
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get -y install python3; sudo apt-get -y install python3-setuptools; fi
   - if [ "$TRAVIS_OS_NAME" = "windows" ]; then choco install python --version 3.6.8; PATH=/c/Python36:/c/Python36/Scripts:$PATH; ln -s /c/Python36/python /usr/bin/python3; ln -s /c/Python36/Scripts/pip /usr/bin/pip3; fi
   - export BOTO_CONFIG=/dev/null
+  - openssl aes-256-cbc -K $encrypted_7e5f96988ff5_key -iv $encrypted_7e5f96988ff5_iv -in test98_circuit_secret.dss.enc -out test98_circuit_secret.dss -d
+  - openssl aes-256-cbc -K $encrypted_7e5f96988ff5_key -iv $encrypted_7e5f96988ff5_iv -in test98_otherinputs_secret.json.enc -out test98_otherinputs_secret.json -d
 install:
   - python3 build.py
 script:
