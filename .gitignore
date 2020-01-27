@@ -1,6 +1,6 @@
 # RONM-specific data
-test_data/test98_circuit_secret.dss
-test_data/test98_otherinputs_secret.json
+secret_test_data/
+other_test_data.tar
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
