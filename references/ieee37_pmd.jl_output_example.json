@@ -1,0 +1,981 @@
+{
+  "solve_time": 0.12854599952697754,
+  "optimizer": "Ipopt",
+  "termination_status": "LOCALLY_SOLVED",
+  "dual_status": "FEASIBLE_POINT",
+  "primal_status": "FEASIBLE_POINT",
+  "objective": 0.0,
+  "solution": {
+    "baseMVA": 100.0,
+    "gen": {
+      "1": {
+        "qg": {
+          "values": [
+            0.011033207322017869,
+            0.003196817625478966,
+            0.0035511021352661798
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "pg": {
+          "values": [
+            0.008843643135131458,
+            0.0047283939489439555,
+            0.0135725310933609
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      }
+    },
+    "conductors": 3,
+    "bus": {
+      "32": {
+        "va": {
+          "values": [
+            -0.44737426794490187,
+            -2.2469964586096687,
+            2.288005797479822
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5399110211774865,
+            1.2517439194315558,
+            0.8498952035714605
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "29": {
+        "va": {
+          "values": [
+            -0.4297720604434136,
+            -2.237597071679037,
+            2.2876447156369952
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5984550551340164,
+            1.2466151952077251,
+            0.8678065769834898
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "1": {
+        "va": {
+          "values": [
+            -0.42713875206249213,
+            -2.234806899862946,
+            2.2950285618697133
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.6206128215383686,
+            1.2569865657863286,
+            0.8801939802474624
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "2": {
+        "va": {
+          "values": [
+            -0.43258374946904965,
+            -2.2364763806806742,
+            2.2895771078530593
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.6073721735023622,
+            1.2523707979700731,
+            0.8700743540443501
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "41": {
+        "va": {
+          "values": [
+            0.5235952130373079,
+            -1.5708094929251437,
+            2.6179775739752476
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.9999862716008289,
+            0.9999954393572605,
+            0.9999825386401789
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "51": {
+        "va": {
+          "values": [
+            0.5153425006184114,
+            -1.7023392820715153,
+            2.4513703341545927
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.8595229016446152,
+            0.9467824207513946,
+            0.8088499086325793
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "27": {
+        "va": {
+          "values": [
+            -0.4492784189587696,
+            -2.246487900179856,
+            2.288204023638141
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5377451998634254,
+            1.2524309866311016,
+            0.8455105407347651
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "42": {
+        "va": {
+          "values": [
+            0.5336129598969366,
+            -1.5698135234724415,
+            2.6285351940317034
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.9946075255021763,
+            0.9888926340777034,
+            0.9839956266719975
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "33": {
+        "va": {
+          "values": [
+            -0.4482711685869931,
+            -2.247393471328963,
+            2.2883063390178267
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5368350453825355,
+            1.252176464763732,
+            0.848703106291594
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "28": {
+        "va": {
+          "values": [
+            -0.4492535707683387,
+            -2.2464585508454156,
+            2.2883414853582345
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5377857419948522,
+            1.2524066835940522,
+            0.8450882088090298
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "50": {
+        "va": {
+          "values": [
+            0.5153425127052477,
+            -1.7023392737500622,
+            2.45137029861043
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.859522885547372,
+            0.9467824462232187,
+            0.8088499133609256
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "52": {
+        "va": {
+          "values": [
+            0.5153425010859274,
+            -1.7023392827329742,
+            2.4513703339875614
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.8595229018908807,
+            0.9467824209616039,
+            0.8088499079249929
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "26": {
+        "va": {
+          "values": [
+            -0.4490219872380441,
+            -2.246713616224583,
+            2.2882183436443717
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5375193059719362,
+            1.2523639111318843,
+            0.8463086678153544
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "10": {
+        "va": {
+          "values": [
+            -0.428306276456968,
+            -2.2353684820312756,
+            2.2845037321197696
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.6054677209661268,
+            1.2408269699955887,
+            0.8630130891539465
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "24": {
+        "va": {
+          "values": [
+            -0.44611409340692415,
+            -2.2434232460726307,
+            2.2869617137681493
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5525159766258495,
+            1.2497248382547337,
+            0.8453346283066958
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "25": {
+        "va": {
+          "values": [
+            -0.44465090023760223,
+            -2.243415478812715,
+            2.2860277407883567
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.552393108446664,
+            1.2470488320545068,
+            0.8466975981544811
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "23": {
+        "va": {
+          "values": [
+            -0.4458865729040179,
+            -2.243678631438107,
+            2.2868386434645007
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5522501824614089,
+            1.2496806681266064,
+            0.8465547319440776
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "49": {
+        "va": {
+          "values": [
+            0.5153425131829532,
+            -1.7023392744160457,
+            2.4513702984451213
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.8595228857964589,
+            0.946782446436655,
+            0.8088499126457123
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "5": {
+        "va": {
+          "values": [
+            -0.4388211418008763,
+            -2.2386645745860143,
+            2.284949992318212
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5912265422674228,
+            1.2500844335759922,
+            0.8624773907153274
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "31": {
+        "va": {
+          "values": [
+            -0.44579492132991266,
+            -2.244446441503296,
+            2.286850047278536
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5515015801482883,
+            1.2506347201453194,
+            0.8496679473618387
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "43": {
+        "va": {
+          "values": [
+            0.4977580203861347,
+            -1.6601224395600105,
+            2.4970090140004477
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.9097241190996878,
+            0.9737908820104446,
+            0.8913048225071741
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "39": {
+        "va": {
+          "values": [
+            -0.07446993717239352,
+            -2.161403180047472,
+            1.9316510002126417
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.7673398059656159,
+            0.9520670838407325,
+            0.8923923659244111
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "34": {
+        "va": {
+          "values": [
+            -0.43805741478431015,
+            -2.2395158411240765,
+            2.285419234390303
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5854426414708682,
+            1.2493629659845584,
+            0.861653525266009
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "44": {
+        "va": {
+          "values": [
+            0.48703099130637756,
+            -1.6601129271782031,
+            2.487788712438913
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.9154610318729933,
+            0.9849377708477729,
+            0.9085215766267124
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "17": {
+        "va": {
+          "values": [
+            -0.42467864118290743,
+            -2.2341176270869045,
+            2.2819164651332455
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.6063181172836019,
+            1.231754448151794,
+            0.8619952135780135
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "37": {
+        "va": {
+          "values": [
+            -0.3833817655490354,
+            -2.232393700956081,
+            2.3132565393679516
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.6553665116437309,
+            1.2642000487138316,
+            0.9262418759047442
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "47": {
+        "va": {
+          "values": [
+            0.49530408879319887,
+            -1.6745171028644819,
+            2.477195717314435
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.8946097050109024,
+            0.9683294690755442,
+            0.8724160843364505
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "9": {
+        "va": {
+          "values": [
+            -0.43040649566186745,
+            -2.23668409593402,
+            2.287170067676274
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.602936303530671,
+            1.2462866625332596,
+            0.8668082249570747
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "12": {
+        "va": {
+          "values": [
+            -0.4324827056495121,
+            -2.235613409053956,
+            2.289494206319991
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.6079564366079655,
+            1.2508882093229123,
+            0.8664386050103088
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "20": {
+        "va": {
+          "values": [
+            -0.4429375052773568,
+            -2.2416822557916802,
+            2.285875552817952
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5679570280601521,
+            1.2497840910617182,
+            0.8529795864876103
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "6": {
+        "va": {
+          "values": [
+            -0.43828829791713064,
+            -2.238965154595827,
+            2.2852958391363574
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.588398685290989,
+            1.2498629159510932,
+            0.8617867489996067
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "14": {
+        "va": {
+          "values": [
+            -0.4275881688252837,
+            -2.235303078335321,
+            2.2839873715899746
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.60558594466223,
+            1.2394365081948613,
+            0.8630875317523172
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "7": {
+        "va": {
+          "values": [
+            -0.4409260324340444,
+            -2.2400817129763904,
+            2.2851329623513155
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5790045778386769,
+            1.2495256000011847,
+            0.856835977010947
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "8": {
+        "va": {
+          "values": [
+            -0.4305577002613742,
+            -2.2365226479741565,
+            2.287106842003297
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.6037584105808724,
+            1.2463079360542648,
+            0.8666192074678377
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "19": {
+        "va": {
+          "values": [
+            -0.44392286073752835,
+            -2.243166737456741,
+            2.2862870947963345
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5606148697262551,
+            1.2501536082198486,
+            0.8527786945203659
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "4": {
+        "va": {
+          "values": [
+            -0.4319910437388682,
+            -2.2362601008553398,
+            2.2885317682685544
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.6061286505555982,
+            1.2499559973876655,
+            0.8678334832691932
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "22": {
+        "va": {
+          "values": [
+            -0.44042187836407204,
+            -2.240795051791009,
+            2.2845472976987566
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5748583571226712,
+            1.2476653415758405,
+            0.8558350420758056
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "11": {
+        "va": {
+          "values": [
+            -0.43162469421770316,
+            -2.2358569877644956,
+            2.288987899128407
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.6074542298278719,
+            1.2495339242212182,
+            0.8680055749600492
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "35": {
+        "va": {
+          "values": [
+            -0.43806108189595566,
+            -2.2397545748584493,
+            2.285501993802207
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5849391836843125,
+            1.2497706527630794,
+            0.8623076422365437
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "13": {
+        "va": {
+          "values": [
+            -0.4278361496736803,
+            -2.235362080928165,
+            2.2841616656607964
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.6055529778093435,
+            1.2400159617242676,
+            0.8630548234969082
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "15": {
+        "va": {
+          "values": [
+            -0.425002591899458,
+            -2.234240800962828,
+            2.282148404005571
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.6062321975954371,
+            1.232580166388757,
+            0.8621252883430144
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "16": {
+        "va": {
+          "values": [
+            -0.42432658716654337,
+            -2.2340793732087705,
+            2.2816714155932356
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.6063229574455753,
+            1.230996840828088,
+            0.8622164543197103
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "40": {
+        "va": {
+          "values": [
+            -1.8320913280717858e-14,
+            -2.0943951023934644,
+            2.094395102393378
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            1.0000000000003058,
+            0.9999999999999293,
+            0.9999999999999002
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "21": {
+        "va": {
+          "values": [
+            -0.4414158986013949,
+            -2.2407784786551606,
+            2.2852303269240806
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5747064336339491,
+            1.2492778103141642,
+            0.8557428101658247
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "38": {
+        "va": {
+          "values": [
+            -8.855643034385273e-6,
+            -2.0944008202405495,
+            2.094376643176135
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.9999807270167391,
+            0.9999936277573378,
+            0.9999898948241459
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "46": {
+        "va": {
+          "values": [
+            0.5004608531692498,
+            -1.660124851729175,
+            2.4993699529960067
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.9083063761551017,
+            0.9710041598403882,
+            0.8870127606417323
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "45": {
+        "va": {
+          "values": [
+            0.4977580203859508,
+            -1.66012243956009,
+            2.497009014000573
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.9097241190998151,
+            0.9737908820102794,
+            0.8913048225072782
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "36": {
+        "va": {
+          "values": [
+            -0.41861913983296895,
+            -2.2323937009593107,
+            2.303122114679852
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.642038580489461,
+            1.2642000487136205,
+            0.901955592832074
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "48": {
+        "va": {
+          "values": [
+            0.4925681558318693,
+            -1.674473385599208,
+            2.4749046647777035
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.8960401393642342,
+            0.971115869750392,
+            0.8767535663281861
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "18": {
+        "va": {
+          "values": [
+            -0.44275162354355635,
+            -2.24188369121699,
+            2.2857520225126824
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5677492535678961,
+            1.2497422952604489,
+            0.8539443305305936
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "30": {
+        "va": {
+          "values": [
+            -0.438290838665546,
+            -2.2395017837960514,
+            2.285380176268783
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.5861703269969369,
+            1.2496894903932356,
+            0.8620294249212542
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      },
+      "3": {
+        "va": {
+          "values": [
+            -0.4322349185828969,
+            -2.2359118857886227,
+            2.2893536740657674
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        },
+        "vm": {
+          "values": [
+            0.6076469060620954,
+            1.250834523531559,
+            0.8678670572895548
+          ],
+          "type": "PowerModels.MultiConductorVector{Real}"
+        }
+      }
+    },
+    "per_unit": true
+  },
+  "machine": {
+    "cpu": "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+    "memory": "16.0 Gb"
+  },
+  "data": {
+    "name": "ieee37",
+    "bus_count": 52,
+    "branch_count": 46
+  },
+  "objective_lb": null
+}
